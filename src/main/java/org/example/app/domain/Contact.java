@@ -38,17 +38,11 @@ public class Contact {
         return contactName;
     }
 
-    public void setContactName(String contactName) {
-        this.contactName = contactName;
-    }
 
     public String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
 
     @Override
     public String toString() {
