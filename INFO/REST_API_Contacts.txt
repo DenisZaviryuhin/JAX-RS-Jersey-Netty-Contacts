@@ -1,0 +1,54 @@
+REST API Contact
+
+
+Отримання всіх даних
+GET
+http://localhost:8081/api/v1/contacts
+
+Створення даних
+POST
+http://localhost:8081/api/v1/contacts
+
+{
+    "contactName": "John",
+    "phone": "777 4532-999"
+}
+
+{
+    "contactName": "Bob",
+    "phone": "777 4552-999"
+}
+
+{
+    "contactName": "Den",
+    "phone": "777 5522-999"
+}
+
+{
+    "contactName": "Alice",
+    "phone": "777 0532-991"
+}
+
+{
+    "contactName": "Jack",
+    "phone": "777 4532-989"
+}
+
+Отримання даних за id
+GET
+http://localhost:8081/api/v1/contacts/4
+
+
+
+Оновлення даних за id
+PUT
+http://localhost:8081/api/v1/contacts/2
+
+{
+    "contactName": "Bob",
+    "phone": "777 7777-777"
+}
+
+Видалення даних за id
+DELETE
+http://localhost:8081/api/v1/contacts/1
